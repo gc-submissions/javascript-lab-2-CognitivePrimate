@@ -12,7 +12,7 @@ const chooseOption = (opt1, opt2) => {
     
 }
 
-function attackPlayer(health){
+const attackPlayer = function(health){
     return health - randomDamage();
 }
 
@@ -45,7 +45,7 @@ function fight(player1, player2, player1Health, player2Health){
     }
 
 }
-// fight("Coronavirus", "Humanity", 100, 100);
+fight("Coronavirus", "Humanity", 100, 100);
 
 // Extended challenges
 // so square
